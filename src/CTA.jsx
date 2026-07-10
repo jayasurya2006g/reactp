@@ -2,7 +2,7 @@ import { FaArrowRight, FaPhoneAlt, FaUserMd, FaHeartbeat } from "react-icons/fa"
 
 function CTA() {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-purple-700 via-indigo-600 to-blue-600 dark:from-indigo-900 dark:via-purple-900 dark:to-blue-900 flex items-center justify-center px-6 transition-colors duration-300">
+    <section className="min-h-screen bg-gradient-to-br from-purple-700 via-indigo-600 to-blue-600 flex items-center justify-center px-6">
 
       <div className="relative max-w-7xl w-full overflow-hidden rounded-[40px]">
 
@@ -30,12 +30,12 @@ function CTA() {
 
             <div className="flex gap-5 mt-10">
 
-              <button className="bg-white text-purple-700 px-8 py-4 rounded-full font-semibold hover:scale-105 transition flex items-center gap-3 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">
+              <button className="bg-white text-purple-700 px-8 py-4 rounded-full font-semibold hover:scale-105 transition flex items-center gap-3">
                 Make Appointment
                 <FaArrowRight />
               </button>
 
-              <button className="border border-white px-8 py-4 rounded-full hover:bg-white hover:text-purple-700 transition flex items-center gap-3 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white/50">
+              <button className="border border-white px-8 py-4 rounded-full hover:bg-white hover:text-purple-700 transition flex items-center gap-3">
                 <FaPhoneAlt />
                 Contact Us
               </button>

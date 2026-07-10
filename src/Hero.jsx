@@ -1,31 +1,30 @@
 import { FaStar, FaHeadset } from "react-icons/fa";
 function Box() {
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 p-6 transition-colors duration-300">
+    <div className="min-h-screen bg-gray-100 p-6">
       <div className="flex h-[90vh] rounded-3xl overflow-hidden shadow-2xl">
 
         
-         <div className="w-[60%] bg-gradient-to-br from-pink-200 via-pink-200 to-purple-200 dark:from-purple-900 dark:via-indigo-900 dark:to-blue-900 flex flex-col justify-center items-center text-center px-16">
+           <div className="w-[60%] bg-gradient-to-br from-pink-200 via-pink-200 to-purple-200 flex flex-col justify-center items-center text-center px-16">
 
-      <p className="text-gray-600 dark:text-purple-200 text-sm mb-4">
+        <p className="text-gray-600 text-sm mb-4">
         Your Health, Our Priority
       </p>
 
-      <h1 className="text-6xl font-bold text-gray-900 dark:text-white leading-tight">
+        <h1 className="text-6xl font-bold text-gray-900 leading-tight">
         Get Premium <br />
         Medical Care <br />
         For Your Best <br />
         Health
     </h1>
+        <p className="mt-6 text-gray-600 text-lg max-w-xl">
+          Doctors are available every day to provide personalized care,
+          online consultations and health guidance.
+        </p>
 
-      <p className="mt-6 text-gray-600 dark:text-gray-300 text-lg max-w-xl">
-        Doctors are available every day to provide personalized care,
-        online consultations and health guidance.
-      </p>
-
-      <button className="mt-10 bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-full font-semibold shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">
-        Book Appointment
-      </button>
+        <button className="mt-10 bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-full font-semibold shadow-lg">
+          Book Appointment
+        </button>
 
 </div>
 

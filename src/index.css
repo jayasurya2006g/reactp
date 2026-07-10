@@ -1,11 +1,3 @@
+/* Custom styles go here */
+
 @import "tailwindcss";
-
-html, body { height: 100%; }
-
-body {
-	@apply bg-white text-gray-900 transition-colors duration-300;
-}
-
-.dark body {
-	@apply bg-gray-900 text-gray-100;
-}

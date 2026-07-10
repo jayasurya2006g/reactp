@@ -3,23 +3,23 @@ import { FaHeartbeat, FaUserMd, FaHospital } from "react-icons/fa";
 
 function Features() {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800 py-20 transition-colors duration-300">
+    <section className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50 py-20">
 
       <div className="max-w-7xl mx-auto px-6">
 
         
         <div className="text-center">
 
-          <span className="bg-purple-100 text-purple-700 dark:bg-purple-800 dark:text-purple-200 px-5 py-2 rounded-full font-semibold">
+          <span className="bg-purple-100 text-purple-700 px-5 py-2 rounded-full font-semibold">
             Why Choose Us
           </span>
 
-          <h1 className="text-5xl font-bold mt-6 text-gray-900 dark:text-gray-100">
+          <h1 className="text-5xl font-bold mt-6">
             Discover Our
             <span className="text-purple-600"> Premium Features</span>
           </h1>
 
-          <p className="text-gray-500 dark:text-gray-300 mt-5 text-lg max-w-3xl mx-auto">
+          <p className="text-gray-500 mt-5 text-lg max-w-3xl mx-auto">
             Experience smarter healthcare with online consultations,
             AI-powered reports, secure medical records, and 24/7 support.
           </p>
@@ -52,7 +52,7 @@ function Features() {
 
         </div>
 
-        <div className="mt-20 bg-white dark:bg-gray-800 rounded-3xl shadow-xl overflow-hidden transition-colors duration-300">
+        <div className="mt-20 bg-white rounded-3xl shadow-xl overflow-hidden">
 
           <div className="grid md:grid-cols-2 items-center">
 
@@ -74,7 +74,7 @@ function Features() {
                 <span className="text-purple-600"> Simple</span>
               </h2>
 
-              <p className="text-gray-500 dark:text-gray-300 mt-5 leading-8">
+              <p className="text-gray-500 mt-5 leading-8">
                 Our platform connects patients with trusted doctors,
                 allowing instant appointments, online consultations,
                 secure medical reports, and continuous healthcare support.
@@ -82,7 +82,7 @@ function Features() {
 
               
 
-              <button className="mt-10 bg-purple-600 text-white px-8 py-4 rounded-full hover:bg-purple-700 transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">
+              <button className="mt-10 bg-purple-600 text-white px-8 py-4 rounded-full hover:bg-purple-700 transition">
                 Explore More →
               </button>
 

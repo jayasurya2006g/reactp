@@ -34,7 +34,7 @@ function Coll() {
   ];
 
   return (
-    <div className="w-full bg-white dark:bg-gray-900 transition-colors duration-300">
+    <div className="w-full bg-white">
 
       <section className="min-h-screen flex items-center">
         <div className="max-w-7xl mx-auto px-6 w-full">
@@ -73,8 +73,8 @@ function Coll() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-12">
 
             {companies.map((company) => (
-              <div key={company} className="bg-gray-100 dark:bg-gray-800 rounded-xl p-5 text-center shadow transition-colors duration-300">
-                <h2 className="font-semibold text-gray-900 dark:text-gray-100">{company}</h2>
+              <div key={company} className="bg-gray-100 rounded-xl p-5 text-center shadow">
+                <h2 className="font-semibold">{company}</h2>
               </div>
             ))}
 
@@ -95,7 +95,7 @@ function Coll() {
 
             {doctors.map((doctor) => (
 
-              <div key={doctor.name} className="bg-white dark:bg-gray-800 rounded-3xl shadow-xl p-8 text-center transition-colors duration-300">
+              <div key={doctor.name} className="bg-white rounded-3xl shadow-xl p-8 text-center">
 
                 <img
                   src={doctor.image}
@@ -104,13 +104,13 @@ function Coll() {
                   className="w-24 h-24 rounded-full mx-auto"
                 />
 
-                <h2 className="text-2xl font-bold mt-5 text-gray-900 dark:text-gray-100">{doctor.name}</h2>
+                <h2 className="text-2xl font-bold mt-5">{doctor.name}</h2>
 
-                <p className="text-purple-600 dark:text-purple-300">{doctor.role}</p>
+                <p className="text-purple-600">{doctor.role}</p>
 
-                <p className="text-gray-500 dark:text-gray-300 mt-4">One popular procedure involves using saline solution.</p>
+                <p className="text-gray-500 mt-4">One popular procedure involves using saline solution.</p>
 
-                <button className="mt-6 w-12 h-12 rounded-full bg-purple-600 text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">→</button>
+                <button className="mt-6 w-12 h-12 rounded-full bg-purple-600 text-white">→</button>
 
               </div>
 
